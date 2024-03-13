@@ -3,6 +3,14 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
 
 void main() {
+  //Remove this method to stop OneSignal Debugging 
+OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
+
+OneSignal.initialize("75e1e2cf-0b57-49d3-b507-e456e996f447");
+
+// The promptForPushNotificationsWithUserResponse function will show the iOS or Android push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission
+OneSignal.Notifications.requestPermission(true);
+
   runApp(MyApp());
 }
 
