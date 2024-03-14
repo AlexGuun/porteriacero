@@ -3,8 +3,9 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
 
 void main() {
+   WidgetsFlutterBinding.ensureInitialized(); // Asegurarse de que se inicialice primero
   //Remove this method to stop OneSignal Debugging 
-OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
+//OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
 
 OneSignal.initialize("75e1e2cf-0b57-49d3-b507-e456e996f447");
 

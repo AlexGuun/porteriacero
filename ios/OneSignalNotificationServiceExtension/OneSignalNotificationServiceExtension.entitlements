@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.lacreativitat.porteriaceroApp</string>
+		<string>group.com.lacreativitat.porteriaceroApp.onesignal</string>
 	</array>
 </dict>
 </plist>

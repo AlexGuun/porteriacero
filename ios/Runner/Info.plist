@@ -30,6 +30,7 @@
 	<true/>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>bluetooth-peripheral</string>
 		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
